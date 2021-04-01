@@ -1,0 +1,23 @@
+{
+	"name": "telescope",
+	"displayName": "Telescope",
+	"description": "I think I can see Hoag's Object from here..",
+	"repository": "https://github.com/manescianera/telescope-vsc",
+	"publisher": "manescianera",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.39.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Telescope",
+				"uiTheme": "vs-dark",
+				"path": "./themes/telescope.json"
+			}
+		]
+	}
+}
